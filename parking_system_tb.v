@@ -1,6 +1,5 @@
 `timescale 1ns / 1ns
 `include "parking_system.v"
-// fpga4student.com FPGA projects, Verilog projects, VHDL projects
 // Verilog project: Verilog code for car parking system
 module parking_system_tb;
 
@@ -17,7 +16,6 @@ module parking_system_tb;
   wire RED_LED;
   wire [6:0] HEX_1;
   wire [6:0] HEX_2;
-// fpga4student.com FPGA projects, Verilog projects, VHDL projects
   // Instantiate the Unit Under Test (UUT)
   parking_system uut (
   .clk(clk), 
@@ -57,7 +55,6 @@ module parking_system_tb;
  sensor_exit =1;
  
  // Add stimulus here
-// fpga4student.com FPGA projects, Verilog projects, VHDL projects
  end
       
 endmodule
